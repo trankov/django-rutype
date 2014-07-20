@@ -5,6 +5,6 @@ dgango-rutype
 
 Использование:
 
-1. Сложить файлы в папку my_app/templatetags
+1. Сложить файлы в папку <code>my_app/templatetags</code>
 2. Импортировать фильтр в своем шаблоне: <code>{% load rutype %}</code>
 3. При выводе не забываем отключить экранирование: <code>{{ article.text|rutype|safe }}</code>
